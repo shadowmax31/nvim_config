@@ -32,4 +32,5 @@ function! RunSQL(full)
 
 	let command = '%!sqlcmd -S ' . server . ' -E -d ' . db . ' -i "' . path . '"'
 	exec command
+
 endfunction
