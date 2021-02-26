@@ -16,7 +16,7 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-w>j <nop>
 nnoremap <C-w>k <nop>
 nnoremap <C-w>h <nop>
-nnoremap <C-w> <nop>
+nnoremap <C-w>l <nop>
 
 noremap <Leader>x :call RunSQL(0)<CR>
 noremap <Leader>X :call RunSQL(1)<CR>
