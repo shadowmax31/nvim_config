@@ -18,9 +18,8 @@
 ### Init NeoVim
 - Start NeoVim
 `nvim`
-- Install the plugins
 `:PlugInstall`
-
+`:CocInstall`
 
 ### Environment Variables
 The configuration uses a few envrionment variables to work correctly
