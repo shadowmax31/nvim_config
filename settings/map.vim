@@ -1,5 +1,5 @@
 " Permet de faire fonctionner le mode normal avec le clavier français
-nmap é / 
+nmap é /
 nmap È "
 nmap è '
 

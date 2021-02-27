@@ -6,6 +6,7 @@ Plug 'artanikin/vim-synthwave84'
 Plug 'jcherven/jummidark.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
+Plug 'preservim/nerdcommenter'
 Plug 'jnurmine/Zenburn'
 Plug 'ryanoasis/vim-devicons'
 Plug 'junegunn/fzf'
@@ -37,6 +38,13 @@ autocmd BufEnter diary.wiki :VimwikiDiaryGenerateLinks
 " NerdTree
 map <C-n> :NERDTreeToggle<CR>
 " NerdTree
+
+" NerdCommenter
+let g:NERDCreateDefaultMappings = 0
+
+nnoremap <C-/> :call NERDComment("n", "toggle")<CR>
+vnoremap <C-/> :call NERDComment("n", "toggle")<CR>
+" NerdCommenter
 
 
 " LightLine

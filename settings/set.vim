@@ -1,4 +1,6 @@
 syntax on
+filetype plugin on
+
 let mapleader = ","
 
 set ff=unix
