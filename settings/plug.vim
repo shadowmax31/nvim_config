@@ -7,6 +7,10 @@ Plug 'jcherven/jummidark.vim'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'jnurmine/Zenburn'
+Plug 'ryanoasis/vim-devicons'
+Plug 'junegunn/fzf'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'leafgarland/typescript-vim'
 
 call plug#end()
 " Plugin manager END
@@ -38,3 +42,11 @@ map <C-n> :NERDTreeToggle<CR>
 " LightLine
 set laststatus=2
 " LightLine
+
+" fzf
+let $FZF_DEFAULT_COMMAND = 'ag -g ""'
+nnoremap <C-p> :FZF<CR>
+" fzf
+
+" Syntax hightlight and IntelliSense
+let g:coc_global_extensions = ['coc-emmet', 'coc-css', 'coc-html', 'coc-json', 'coc-prettier', 'coc-tsserver']

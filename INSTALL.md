@@ -5,8 +5,15 @@
 - Linux
 `git clone https://github.com/shadowmax31/nvim_config ~/.config/nvim`
 
-### Install Vim-Plug
+### Install external dependencies
 `https://github.com/junegunn/vim-plug`
+
+- To search for files install:
+		- https://github.com/junegunn/fzf
+		- https://github.com/ggreer/the_silver_searcher
+		- Install nodejs
+
+- Install the fonts in the "fonts" folder
 
 ### Init NeoVim
 - Start NeoVim

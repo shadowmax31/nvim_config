@@ -3,12 +3,16 @@ let mapleader = ","
 
 set ff=unix
 set number
-set tabstop=4
 set ignorecase
 set number relativenumber
 set backspace=indent,eol,start
 set cursorline
 set encoding=utf-8
+set hidden
+
+set tabstop=4
+set shiftwidth=2
+set expandtab
 
 set guifont=Consolas:h14
 set guioptions-=r
