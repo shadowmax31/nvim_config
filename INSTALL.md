@@ -9,10 +9,12 @@
 `https://github.com/junegunn/vim-plug`
 
 - To search for files install:
-		- https://github.com/junegunn/fzf
-		- https://github.com/ggreer/the_silver_searcher
-		- Install nodejs
-
+  - https://github.com/junegunn/fzf
+  - https://github.com/ggreer/the_silver_searcher
+  - Install nodejs
+  - https://github.com/nvim-treesitter/nvim-treesitter
+    - Run TSInstall c
+    - Run TSInstall cpp
 - Install the fonts in the "fonts" folder
 
 ### Init NeoVim
