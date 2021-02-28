@@ -17,5 +17,14 @@
   "coc.preferences.diagnostic.virtualText": true,
   "codeLens.enable": true,
   "java.referencesCodeLens.enabled": true,
-  "java.jdt.ls.vmargs": "-javaagent:C:/Outils/java/lombok.jar"
+  "java.jdt.ls.vmargs": "-javaagent:C:/Outils/java/lombok.jar",
+
+  // explorer
+  "explorer.width": 30,
+  "explorer.icon.enableNerdfont": true,
+  "explorer.previewAction.onHover": false,
+  "explorer.keyMappings.global": {
+    "<cr>": ["expandable?", "expand", "open"],
+    "v": "open:vsplit"
+  }
 }
