@@ -11,6 +11,7 @@
 - To search for files install:
   - https://github.com/junegunn/fzf
   - https://github.com/ggreer/the_silver_searcher
+  - https://github.com/BurntSushi/ripgrep
   - Install nodejs
   - https://github.com/nvim-treesitter/nvim-treesitter
     - Run TSInstall c

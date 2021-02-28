@@ -8,9 +8,14 @@ Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
 Plug 'jnurmine/Zenburn'
 Plug 'ryanoasis/vim-devicons'
-Plug 'junegunn/fzf'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
+Plug 'mhinz/vim-startify'
+Plug 'justinmk/vim-sneak'
+
+Plug 'junegunn/fzf'
+Plug 'junegunn/fzf.vim'
+Plug 'airblade/vim-rooter'
 
 if has("nvim-0.5")
   Plug 'nvim-treesitter/nvim-treesitter'
