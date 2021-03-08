@@ -16,7 +16,7 @@ set tabstop=4
 set shiftwidth=2
 set expandtab
 
-set guifont=Consolas:h14
+set guifont=Consolas:h12
 set guioptions-=r
 set guioptions-=L
 set guioptions-=T

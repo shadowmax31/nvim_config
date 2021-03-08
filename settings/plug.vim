@@ -1,17 +1,22 @@
 call plug#begin(stdpath('data') . '/plugged')
 
-Plug 'vimwiki/vimwiki'
+Plug 'arcticicestudio/nord-vim'
 Plug 'artanikin/vim-synthwave84'
 Plug 'jcherven/jummidark.vim'
+Plug 'jnurmine/Zenburn'
+Plug 'joshdick/onedark.vim'
+
+Plug 'vimwiki/vimwiki'
 Plug 'itchyny/lightline.vim'
 Plug 'preservim/nerdtree'
 Plug 'preservim/nerdcommenter'
-Plug 'jnurmine/Zenburn'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
 Plug 'mhinz/vim-startify'
 Plug 'justinmk/vim-sneak'
+
+Plug 'gregsexton/MatchTag'
 
 Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'

@@ -22,4 +22,8 @@ au!
 autocmd VimEnter * silent !echo -ne "\e[2 q"
 augroup END
 
-colo zenburn
+
+if has("termguicolors")
+  set termguicolors
+  colo onedark
+endif

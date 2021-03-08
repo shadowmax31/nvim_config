@@ -1,7 +1,7 @@
 {
   "coc.preferences.formatOnSaveFiletypes": [
     "javascript",
-    "typescript",
+    // "typescript",
     "typescriptreact",
     "json",
     "javascriptreact",
@@ -20,7 +20,7 @@
   "java.jdt.ls.vmargs": "-javaagent:C:/Outils/java/lombok.jar",
 
   // explorer
-  "explorer.width": 30,
+  "explorer.width": 40,
   "explorer.icon.enableNerdfont": true,
   "explorer.previewAction.onHover": false,
   "explorer.keyMappings.global": {
