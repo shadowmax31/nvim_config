@@ -15,6 +15,7 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'leafgarland/typescript-vim'
 Plug 'mhinz/vim-startify'
 Plug 'justinmk/vim-sneak'
+Plug 'kien/rainbow_parentheses.vim'
 
 Plug 'gregsexton/MatchTag'
 

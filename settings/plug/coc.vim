@@ -14,6 +14,9 @@ nmap <silent> gy <Plug>(coc-type-definition)
 nmap <silent> gi <Plug>(coc-implementation)
 nmap <silent> gr <Plug>(coc-references)
 
+" Symbol renaming.
+nmap <leader>rn <Plug>(coc-rename)
+
 " Use K to show documentation in preview window.
 nnoremap <silent> K :call <SID>show_documentation()<CR>
 
@@ -30,6 +33,7 @@ endfunction
 
 " Remap keys for applying codeAction to the current buffer.
 nmap <C-.> <Plug>(coc-codeaction)
+nmap <C-S-p> :CocCommand<CR>
 
 " Show all diagnostics.
 nnoremap <silent><nowait> <leader>a  :<C-u>CocList diagnostics<cr>
