@@ -33,7 +33,7 @@ endfunction
 
 " Remap keys for applying codeAction to the current buffer.
 nmap <C-.> <Plug>(coc-codeaction)
-nmap <C-S-p> :CocCommand<CR>
+nmap <leader>. :CocCommand<CR>
 
 " Show all diagnostics.
 nnoremap <silent><nowait> <leader>a  :<C-u>CocList diagnostics<cr>
