@@ -12,6 +12,7 @@ exec "source " . base_path . "/settings/plug/fzf.vim"
 exec "source " . base_path . "/settings/plug/light_line.vim"
 exec "source " . base_path . "/settings/plug/sneak.vim"
 exec "source " . base_path . "/settings/plug/rainbow.vim"
+exec "source " . base_path . "/settings/plug/startify.vim"
 
 if has("nvim-0.5")
   exec "luafile " . base_path . "/settings/plug/tree.lua"
