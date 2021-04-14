@@ -6,5 +6,5 @@ nnoremap <leader>b :Buffers<CR>
 let g:fzf_preview_window = []
 let g:fzf_action = {
   \ 'ctrl-t': 'tab split',
-  \ 'ctrl-x': 'split',
+  \ 'ctrl-s': 'split',
   \ 'ctrl-v': 'vsplit' }

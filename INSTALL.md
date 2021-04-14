@@ -33,4 +33,5 @@ The configuration uses a few envrionment variables to work correctly
 
 #### Optional
 - MS_INSTANCE: Name of the instance of MSSQL that run_sql.vim will use
+- VIM_BOOKMARK_A: The file to use with bookmark a (startify)
 
