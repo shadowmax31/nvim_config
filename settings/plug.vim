@@ -23,7 +23,7 @@ Plug 'junegunn/fzf'
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-rooter'
 
-"Plug 'vim-scripts/ClosePairs'
+Plug 'jiangmiao/auto-pairs'
 
 if has("nvim-0.5")
   Plug 'nvim-treesitter/nvim-treesitter'
