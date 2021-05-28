@@ -17,6 +17,7 @@
     - Run TSInstall c
     - Run TSInstall cpp
 - Install the fonts in the "fonts" folder
+- pip install neovim
 
 ### Init NeoVim
 - Start NeoVim
